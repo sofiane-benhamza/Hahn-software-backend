@@ -14,7 +14,7 @@ namespace TodoListApp.Tests
         private ApplicationDbContext GetDbContext()
         {
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(Guid.NewGuid().ToString()) // fresh db each time
+                .UseInMemoryDatabase(Guid.NewGuid().ToString()) 
                 .Options;
 
             return new ApplicationDbContext(options);
@@ -28,26 +28,28 @@ namespace TodoListApp.Tests
             var service = new TodoService(context);
 
             // Act
-            var task = service.Add("Test Task");
+            var task = service.Add("Test Task", 3);
 
             // Assert
             Assert.NotNull(task);
             Assert.Equal("Test Task", task.Title);
+            Assert.Equal(3, task.PriorityLevel);
             Assert.Single(context.TodoTasks);
         }
 
         [Fact]
-        public void GetAll_Should_Return_All_Tasks()
+        public async void GetAll_Should_Return_All_Tasks()
         {
             using var context = GetDbContext();
             var service = new TodoService(context);
 
-            service.Add("Task 1");
-            service.Add("Task 2");
+            service.Add("Task 1", 2);
+            service.Add("Task 2", 3);
+            service.Add("Task 3", 0);
 
-            var tasks = service.GetAll().ToList();
+            var tasks = await service.GetAllAsync();
 
-            Assert.Equal(2, tasks.Count);
+            Assert.Equal(3, tasks.Count);
         }
 
         [Fact]
@@ -56,7 +58,7 @@ namespace TodoListApp.Tests
             using var context = GetDbContext();
             var service = new TodoService(context);
 
-            var task = service.Add("Task to Delete");
+            var task = service.Add("Task to Delete", 2);
 
             var deleted = service.Delete(task.Id);
 
@@ -81,7 +83,7 @@ namespace TodoListApp.Tests
             using var context = GetDbContext();
             var service = new TodoService(context);
 
-            var task = service.Add("Incomplete Task");
+            var task = service.Add("Incomplete Task", 2);
 
             service.Complete(task.Id);
 

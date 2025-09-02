@@ -6,10 +6,11 @@ namespace TodoListApp.Application.Services;
     
     public interface ITodoService
     {
-        IEnumerable<TodoTask> GetAll();
-        TodoTask Add(string title);
+        Task<List<TodoTask>> GetAllAsync();
+        TodoTask Add(string title, int priority);
         TodoTask Delete(Guid id);
         void Complete(Guid id);
+
     }
 
 public class TodoService : ITodoService
@@ -21,12 +22,16 @@ public class TodoService : ITodoService
         _context = context;
     }
 
-    public IEnumerable<TodoTask> GetAll()
-        => _context.TodoTasks.AsNoTracking().ToList();
-
-    public TodoTask Add(string title)
+    public async Task<List<TodoTask>> GetAllAsync()
     {
-        var task = new TodoTask(title);
+        return await _context.TodoTasks
+            .AsNoTracking()
+            .ToListAsync();
+    }
+
+    public TodoTask Add(string title, int priority)
+    {
+        var task = new TodoTask(title, priority);
         _context.TodoTasks.Add(task);
         _context.SaveChanges();
         return task;
