@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gU6Uy0btrTRMFAgpkgDW1r5FEzIcDdZlEdAENhqBJx1UsIpHvAB9tviG6+Da81suuCjzlbdlZpumFe2b26tlxw==",
+  "dgSpecHash": "erQdqU0uxGvmXLXm2o0nC9NQDLIQvPxhZ+jbE9ufzhZcu+O2nQBaIokc5vPyiTZssN7Cb1uoI1v5cyTE1wMSUQ==",
   "success": true,
   "projectFilePath": "/home/james/Documents/stack/TodoListApp.API/TodoListApp.API.csproj",
   "expectedPackageFiles": [
     "/home/james/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/james/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/home/james/.nuget/packages/fluentvalidation/11.6.0/fluentvalidation.11.6.0.nupkg.sha512",
     "/home/james/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/james/.nuget/packages/microsoft.aspnetcore.openapi/7.0.20/microsoft.aspnetcore.openapi.7.0.20.nupkg.sha512",
     "/home/james/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
