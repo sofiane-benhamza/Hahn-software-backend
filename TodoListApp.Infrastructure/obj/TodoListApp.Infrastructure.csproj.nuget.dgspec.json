@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj",
+        "projectName": "TodoListApp.Domain",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj",
+        "projectName": "TodoListApp.Infrastructure",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

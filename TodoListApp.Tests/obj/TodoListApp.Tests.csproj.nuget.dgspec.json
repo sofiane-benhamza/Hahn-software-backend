@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/james/Documents/stack/TodoListApp.Tests/TodoListApp.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/james/Documents/stack/TodoListApp.Application/TodoListApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Application/TodoListApp.Application.csproj",
+        "projectName": "TodoListApp.Application",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Application/TodoListApp.Application.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj"
+              },
+              "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj",
+        "projectName": "TodoListApp.Domain",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj",
+        "projectName": "TodoListApp.Infrastructure",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/james/Documents/stack/TodoListApp.Tests/TodoListApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/james/Documents/stack/TodoListApp.Tests/TodoListApp.Tests.csproj",
+        "projectName": "TodoListApp.Tests",
+        "projectPath": "/home/james/Documents/stack/TodoListApp.Tests/TodoListApp.Tests.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Documents/stack/TodoListApp.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/james/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/james/Documents/stack/TodoListApp.Application/TodoListApp.Application.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Application/TodoListApp.Application.csproj"
+              },
+              "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Domain/TodoListApp.Domain.csproj"
+              },
+              "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj": {
+                "projectPath": "/home/james/Documents/stack/TodoListApp.Infrastructure/TodoListApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.*, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/247/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

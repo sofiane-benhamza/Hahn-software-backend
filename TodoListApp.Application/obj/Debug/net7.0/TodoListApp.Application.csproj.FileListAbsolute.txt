@@ -1,0 +1,17 @@
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Application.deps.json
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Application.dll
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Application.pdb
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Domain.dll
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Domain.pdb
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.csproj.AssemblyReference.cache
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.AssemblyInfoInputs.cache
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.AssemblyInfo.cs
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.csproj.CoreCompileInputs.cache
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.dll
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/refint/TodoListApp.Application.dll
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.pdb
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/ref/TodoListApp.Application.dll
+/home/james/Documents/stack/TodoListApp.Application/obj/Debug/net7.0/TodoListApp.Application.csproj.CopyComplete
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Infrastructure.dll
+/home/james/Documents/stack/TodoListApp.Application/bin/Debug/net7.0/TodoListApp.Infrastructure.pdb

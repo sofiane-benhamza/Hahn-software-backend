@@ -1,0 +1,17 @@
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Infrastructure.deps.json
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Infrastructure.dll
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Infrastructure.pdb
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Domain.dll
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Domain.pdb
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.csproj.AssemblyReference.cache
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.AssemblyInfoInputs.cache
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.AssemblyInfo.cs
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.csproj.CoreCompileInputs.cache
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.dll
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/refint/TodoListApp.Infrastructure.dll
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.pdb
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/ref/TodoListApp.Infrastructure.dll
+/home/james/Documents/stack/TodoListApp.Infrastructure/bin/Debug/net7.0/TodoListApp.Infrastructure.runtimeconfig.json
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.genruntimeconfig.cache
+/home/james/Documents/stack/TodoListApp.Infrastructure/obj/Debug/net7.0/TodoListApp.Infrastructure.csproj.CopyComplete
