@@ -9,15 +9,15 @@
 
 ### Run Tests
 
-cd TodoListApp.Tests
+cd TodoListApp.Tests &&
 dotnet test
 
 ### Run Migrations (Infrastructure)
 
-cd TodoListApp.API
-dotnet tool run dotnet-ef migrations add addedPriority -p ../TodoListApp.Infrastructure -s .
+cd TodoListApp.API &&
+dotnet tool run dotnet-ef migrations add migrateToDb -p ../TodoListApp.Infrastructure -s .
 
 ### Run the Application
 
-cd TodoListApp.API
+cd TodoListApp.API &&
 dotnet run
